@@ -1,12 +1,24 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 import NavBar from './components/NavBar/NavBar';
+import MainPage from './pages/MainPage/MainPage';
+import ContentPage from './pages/ContentPage/ContentPage';
+import InfoPage from './pages/InfoPage/InfoPage';
+
+import './App.css';
 
 function App() {
   return ( 
-    <>
-      <NavBar />
-      <h1>Main page</h1>
-    </>
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/content" element={<ContentPage />} />
+            <Route path="/info" element={<InfoPage />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   )
 }
 

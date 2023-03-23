@@ -1,0 +1,25 @@
+.main-page-info {
+    /* display: grid;  */
+    /* grid-template-columns: 1fr 1fr;  */
+    grid-gap: 20px; 
+    border: 1px solid rgb(0, 0, 0)k; 
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+
+
+.text-info {
+    left: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.info {
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+    /* width: 90%; */
+}
+
+
