@@ -12,7 +12,6 @@ const InfoPage = () => {
         <img className='pic' src={bio} alt="logo"/>
         <br></br>
         <br></br>
-        <br></br>
       </div>
       <br></br>
     </div>
