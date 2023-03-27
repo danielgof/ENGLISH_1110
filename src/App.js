@@ -6,6 +6,7 @@ import ContentPage from './pages/ContentPage/ContentPage';
 import InfoPage from './pages/InfoPage/InfoPage';
 
 import './App.css';
+import BottomBar from './components/BottomBar/BottomBar';
 
 function App() {
   return ( 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/content" element={<ContentPage />} />
             <Route path="/info" element={<InfoPage />} />
         </Routes>
+        <BottomBar />
       </div>
     </BrowserRouter>
   )
