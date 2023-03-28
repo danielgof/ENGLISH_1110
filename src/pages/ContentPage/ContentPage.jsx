@@ -1,11 +1,10 @@
 import React from 'react'
+import CardCarousel from '../../components/Carousel/CardCarousel'
 
 const ContentPage = () => {
   return (
     <>
-      <div>
-        Info will be available soon.
-      </div>
+      <CardCarousel />
     </>    
   )
 }

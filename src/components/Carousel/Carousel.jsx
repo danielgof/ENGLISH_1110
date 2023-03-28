@@ -1,44 +1,33 @@
-import React from 'react';
-import Carousel from 'react-carousel-3d';
+import Carousel from "react-spring-3d-carousel";
+import { useState, useEffect } from "react";
+import { config } from "react-spring";
 
-const CardCarousel = ({ cards }) => {
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+export default function Carroussel(props) {
+  const table = props.cards.map((element, index) => {
+    return { ...element, onClick: () => setGoToSlide(index) };
+  });
+
+  const [offsetRadius, setOffsetRadius] = useState(2);
+  const [showArrows, setShowArrows] = useState(false);
+  const [goToSlide, setGoToSlide] = useState(null);
+  const [cards] = useState(table);
+
+  useEffect(() => {
+    setOffsetRadius(props.offset);
+    setShowArrows(props.showArrows);
+  }, [props.offset, props.showArrows]);
 
   return (
-    <Carousel {...settings}>
-      {cards.map((card) => (
-        <div key={card.id}>
-          <img src={card.image} alt={card.title} />
-          <h3>{card.title}</h3>
-          <p>{card.description}</p>
-        </div>
-      ))}
-    </Carousel>
+    <div
+      style={{ width: props.width, height: props.height, margin: props.margin }}
+    >
+      <Carousel
+        slides={cards}
+        goToSlide={goToSlide}
+        offsetRadius={offsetRadius}
+        showNavigation={showArrows}
+        animationConfig={config.gentle}
+      />
+    </div>
   );
-};
-
-export default CardCarousel;
+}
