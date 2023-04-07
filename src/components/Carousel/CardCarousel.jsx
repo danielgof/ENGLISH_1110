@@ -32,9 +32,9 @@ const CardCarousel = () => {
       key: uuidv4(),
       content: (
         <Card 
-        imagen="https://cdn.technadu.com/wp-content/uploads/2022/04/Netflix-Free-Trial-Featured.png" 
+        imagen="https://www.nj.com/resizer/5jNldxX9u5MwHsJlzWfCP6HH7SE=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/5QSHZDKCXVGZXEBVGHV2ONBQYI.png" 
         title="Free Trials"
-        textCard="Netflix Free Trial: Netflix offers a one-month free trial to new customers. This encourages customers to try out the streaming service without committing to a purchase, and it benefits Netflix by increasing the likelihood that customers will become paying subscribers."
+        textCard="Paramount Free Trial: Paramount offers a one-month free trial to new customers. This encourages customers to try out the streaming service without committing to a purchase, and it benefits Netflix by increasing the likelihood that customers will become paying subscribers."
         link="/freetrials"
         />
       )
