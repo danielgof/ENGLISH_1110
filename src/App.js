@@ -13,6 +13,7 @@ import LoyaltyPrograms from './pages/ContentPage/ObjectsPages/LoyaltyPrograms/Lo
 import BundlingProducts from './pages/ContentPage/ObjectsPages/BundlingProducts/BundlingProducts';
 import FreeTrials from './pages/ContentPage/ObjectsPages/FreeTrials/FreeTrials';
 import ReferralPrograms from './pages/ContentPage/ObjectsPages/ReferralPrograms/ReferralPrograms';
+import Resources from './pages/ContentPage/Resources/Resources';
 
 function App() {
   return ( 
@@ -21,6 +22,7 @@ function App() {
         <NavBar />
         <Routes>
             <Route path="/" element={<MainPage />} />
+            <Route path="/res" element={<Resources />} />
             <Route path="/content" element={<ContentPage />} />
             <Route path="/info" element={<InfoPage />} />
             <Route path="/discounts" element={<BuyOneGetOne />} />

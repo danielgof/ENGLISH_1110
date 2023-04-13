@@ -20,6 +20,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/content">Exibition</Nav.Link>
+            <Nav.Link href="/res">Resources</Nav.Link>
             <Nav.Link href="/info">Author's info</Nav.Link>
           </Nav>
         </Navbar.Collapse>

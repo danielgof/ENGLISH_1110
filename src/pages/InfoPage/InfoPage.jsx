@@ -29,6 +29,7 @@ const InfoPage = () => {
             The idea of that project is to create digital exibiton that will encourage people to pat attention to advertisement.
             I'll add details as progress in that project.
           </p>
+          <br></br>
       </div>
       <br></br>
     </div>
