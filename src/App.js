@@ -25,8 +25,8 @@ function App() {
             <Route path="/res" element={<Resources />} />
             <Route path="/content" element={<ContentPage />} />
             <Route path="/info" element={<InfoPage />} />
-            <Route path="/discounts" element={<BuyOneGetOne />} />
-            <Route path="/byonegetone" element={<Discounts />} />
+            <Route path="/discounts" element={<Discounts />} />
+            <Route path="/byonegetone" element={<BuyOneGetOne />} />
             <Route path="/lotaltyprograms" element={<LoyaltyPrograms />} />
             <Route path="/bundlingproducts" element={<BundlingProducts />} />
             <Route path="/freetrials" element={<FreeTrials />} />
