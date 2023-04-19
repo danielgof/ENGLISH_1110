@@ -5,6 +5,8 @@ const BundlingProducts = () => {
   return (
     <div className='projects' align="center">
       <br></br>
+      <h2>Bundling Products</h2>
+      <br></br>
       <div className='info'>
         <br></br>
           <p className='home'>

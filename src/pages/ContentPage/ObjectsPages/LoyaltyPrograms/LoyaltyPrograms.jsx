@@ -4,6 +4,8 @@ const LoyaltyPrograms = () => {
   return (
     <div className='projects' align="center">
       <br></br>
+      <h2>Loyalty Programs</h2>
+      <br></br>
       <div className='info'>
         <br></br>
           <p className='home'>

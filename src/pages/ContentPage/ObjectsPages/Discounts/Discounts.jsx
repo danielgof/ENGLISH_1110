@@ -5,6 +5,8 @@ const Discounts = () => {
   return (
     <div className='projects' align="center">
       <br></br>
+      <h2>Discounts</h2>
+      <br></br>
       <div className='info'>
         <br></br>
           <p className='home'>

@@ -37,3 +37,8 @@
     background-color: rgb(245, 245, 245);
     width: 90%;
 }
+
+.link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}

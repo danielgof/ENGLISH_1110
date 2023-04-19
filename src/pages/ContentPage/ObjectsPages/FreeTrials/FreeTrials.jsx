@@ -5,6 +5,8 @@ const FreeTrials = () => {
   return (
     <div className='projects' align="center">
       <br></br>
+      <h2>Free Trials</h2>
+      <br></br>
       <div className='info'>
         <br></br>
           <p className='home'>

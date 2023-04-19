@@ -5,6 +5,8 @@ const ReferralPrograms = () => {
   return (
     <div className='projects' align="center">
       <br></br>
+      <h2>Referral Programs</h2>
+      <br></br>
       <div className='info'>
         <br></br>
           <p className='home'>
