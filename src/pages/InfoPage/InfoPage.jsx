@@ -7,7 +7,7 @@ const InfoPage = () => {
     <>
     <div className='projects' align="center">
       <br></br>
-      <div className='info'>
+      <div className='home'>
         <br></br>
         <img className='pic' src={bio} alt="logo"/>
         <br></br>
@@ -17,15 +17,15 @@ const InfoPage = () => {
     </div>
     <div className='projects' align="center">
       <br></br>
-      <div className='info'>
+      <div className='home'>
         <br></br>
-          <p className='home'>
+          <p className='info'>
             Hi, my name is Daniil Gofman
           </p>
-          <p className='home'> 
+          <p className='info'> 
             This project is created as an assigment for English 1110 course at OSU.
           </p>
-          <p className='home'> 
+          <p className='info'> 
             The idea of that project is to create digital exibiton that will encourage people to pat attention to advertisement.
             I'll add details as progress in that project.
           </p>
