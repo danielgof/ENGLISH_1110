@@ -7,9 +7,9 @@ const BundlingProducts = () => {
       <br></br>
       <h2>Bundling Products</h2>
       <br></br>
-      <div className='info'>
+      <div className='home'>
         <br></br>
-          <p className='home'>
+          <p className='info'>
           Bundling products is a marketing strategy where a company offers a discount or other benefits to customers who return old or used products to the store. The company can then extract valuable resources from the returned products and reuse them in other products, saving money on acquiring new resources.
           For customers, bundling products provides an opportunity to get rid of old electronics or other products and receive benefits in return. Depending on the company's policies, these benefits can take the form of a discount on a new product, store credit, or other incentives.
           One of the most popular examples of bundling products is Apple's iPhone Bundle. Apple offers a trade-in program where customers can return their old iPhones to the store and receive a discount on a new one based on the condition and age of the returned phone. This program has become increasingly popular among Apple users who want to keep up with the latest iPhone models while also benefiting from the discount offered by the program.
