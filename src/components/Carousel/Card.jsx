@@ -18,7 +18,9 @@ function Card({ imagen, title, textCard, link }) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      <img src={imagen} alt="" />
+      <a href={imagen}>
+        <img src={imagen} alt="" />
+      </a>
       <h2>{title}</h2>
       <p>
         {textCard}
